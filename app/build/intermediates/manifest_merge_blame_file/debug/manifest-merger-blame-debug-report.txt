@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.alignment.level"
+4    android:versionCode="26"
+5    android:versionName="2.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:5:22-65
+12
+13    <uses-feature
+13-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:6:5-8:35
+14        android:name="android.hardware.sensor.accelerometer"
+14-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:7:9-61
+15        android:required="true" />
+15-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:8:9-32
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] C:\Users\Asus\.gradle\caches\transforms-3\fc4c245cd5a34235ceabafe2e1fb9b8c\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+18        android:name="org.alignment.level.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] C:\Users\Asus\.gradle\caches\transforms-3\fc4c245cd5a34235ceabafe2e1fb9b8c\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] C:\Users\Asus\.gradle\caches\transforms-3\fc4c245cd5a34235ceabafe2e1fb9b8c\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="org.alignment.level.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] C:\Users\Asus\.gradle\caches\transforms-3\fc4c245cd5a34235ceabafe2e1fb9b8c\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] C:\Users\Asus\.gradle\caches\transforms-3\fc4c245cd5a34235ceabafe2e1fb9b8c\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:10:5-33:19
+24        android:name="org.alignment.level.LevelApp"
+24-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:11:9-33
+25        android:allowBackup="true"
+25-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:12:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.9.0] C:\Users\Asus\.gradle\caches\transforms-3\fc4c245cd5a34235ceabafe2e1fb9b8c\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:14:9-43
+29        android:label="@string/name"
+29-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:15:9-37
+30        android:theme="@style/LevelTheme" >
+30-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:13:9-42
+31        <activity
+31-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:17:9-26:20
+32            android:name="org.alignment.level.Level"
+32-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:18:13-54
+33            android:exported="true"
+33-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:21:13-36
+34            android:hardwareAccelerated="true"
+34-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:19:13-47
+35            android:screenOrientation="portrait" >
+35-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:20:13-49
+36            <intent-filter>
+36-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:22:13-25:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:23:17-69
+37-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:23:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:24:17-77
+39-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:24:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:28:9-31:51
+43            android:name="org.alignment.level.SettingsActivity"
+43-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:29:13-45
+44            android:parentActivityName="org.alignment.level.Level"
+44-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:31:13-48
+45            android:screenOrientation="portrait" />
+45-->C:\Users\Asus\Desktop\android\Level-master\Level-master\app\src\main\AndroidManifest.xml:30:13-49
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\335c33d945b3614c8e960c50bb765b1f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\335c33d945b3614c8e960c50bb765b1f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+49            android:authorities="org.alignment.level.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\335c33d945b3614c8e960c50bb765b1f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\335c33d945b3614c8e960c50bb765b1f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\335c33d945b3614c8e960c50bb765b1f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\335c33d945b3614c8e960c50bb765b1f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\335c33d945b3614c8e960c50bb765b1f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Asus\.gradle\caches\transforms-3\e9fcb3c1b8aad8112803fbc4fe376153\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Asus\.gradle\caches\transforms-3\e9fcb3c1b8aad8112803fbc4fe376153\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Asus\.gradle\caches\transforms-3\e9fcb3c1b8aad8112803fbc4fe376153\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+57        </provider>
+58
+59        <uses-library
+59-->[androidx.window:window:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\1378ec897aa95c4cd402ba409db33d4d\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+60            android:name="androidx.window.extensions"
+60-->[androidx.window:window:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\1378ec897aa95c4cd402ba409db33d4d\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+61            android:required="false" />
+61-->[androidx.window:window:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\1378ec897aa95c4cd402ba409db33d4d\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+62        <uses-library
+62-->[androidx.window:window:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\1378ec897aa95c4cd402ba409db33d4d\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+63            android:name="androidx.window.sidecar"
+63-->[androidx.window:window:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\1378ec897aa95c4cd402ba409db33d4d\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+64            android:required="false" />
+64-->[androidx.window:window:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\1378ec897aa95c4cd402ba409db33d4d\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+65    </application>
+66
+67</manifest>

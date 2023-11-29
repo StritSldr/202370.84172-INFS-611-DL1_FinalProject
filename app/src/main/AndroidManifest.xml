@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.alignment.level">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+
+    <application
+        android:name=".LevelApp"
+        android:allowBackup="true"
+        android:theme="@style/LevelTheme"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/name">
+
+        <activity
+            android:name="org.alignment.level.Level"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Level" />
+
+    </application>
+
+</manifest>
